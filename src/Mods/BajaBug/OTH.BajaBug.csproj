@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>OTH.BajaBug</AssemblyName>
+    <RootNamespace>OverTheHillPlus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OTH.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- bajabug.mesh (body + body_lod1..3, glass, wheel, tyre, collider) and its textures, made by the oth-car-toolkit (convert_texture.py with profiles/bajabug_cc.py). -->
+    <EmbeddedResource Include="Assets\*.mesh;Assets\*.png" Exclude="Assets\card.png" LogicalName="bajabug/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>OTH.Tacoma3</AssemblyName>
+    <RootNamespace>OverTheHillPlus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OTH.Core.csproj" />
+    <!-- the WHEELS tab in the accessory editor (a soft dependency: Tacoma3Accessories) -->
+    <ProjectReference Include="..\Accessories\OTH.Accessories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- tacoma3.mesh (body + body_lod1..3, glass, wheel, tyre, collider) and its textures, made by the oth-car-toolkit (refine.py, then convert_materials.py with profiles/tacoma3.py). -->
+    <EmbeddedResource Include="Assets\*.mesh;Assets\*.png" Exclude="Assets\card.png" LogicalName="tacoma3/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

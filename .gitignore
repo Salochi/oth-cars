@@ -1,0 +1,18 @@
+bin/
+obj/
+build/*.blend
+build/*.blend1
+build.log
+input/
+tools/__pycache__/
+build/*.before-*
+build/**/*.blend
+build/**/*.blend1
+build/**/build.log
+deploy.local
+
+# Kept out of the public repo: private mods (their models' licences forbid redistribution), local build outputs and
+# the OTH+ reference meshes.
+src/Mods/Tacoma/
+build/
+ref/
