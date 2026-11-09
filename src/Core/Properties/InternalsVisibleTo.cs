@@ -47,3 +47,4 @@
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("OTH.Accessories")]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("OTH.WinchFix")]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("OTH.ShiftFix")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("OTH.FourRunner")]

@@ -192,7 +192,7 @@ internal static class RequiredMods
     {
         "vera", "-", "-", "-", "chat", "horns", "-", "biglobbies", "tercel", "trailers",
         "aro", "hilo", "bastion", "hilo22", "gearbox", "drifter", "nomad", "mule", "pixie", "bento", "longhorn", "-", "ibex", "marmot", "drover",
-        "limber", "badger", "gemse", "tacoma", "bajabug", "winchfix", "tacoma3", "shiftfix",
+        "limber", "badger", "gemse", "tacoma", "bajabug", "winchfix", "tacoma3", "shiftfix", "4runner4",
     };
 
     private static int CodeOf(string id)

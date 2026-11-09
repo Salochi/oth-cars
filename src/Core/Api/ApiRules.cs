@@ -64,7 +64,7 @@ internal static partial class ApiRules
                 // Round 6.
                 "drover", "limber", "badger", "gemse", "tacoma", "bajabug", "accessories",
                 // Salochi.
-                "winchfix", "tacoma3", "shiftfix",
+                "winchfix", "tacoma3", "shiftfix", "4runner4",
             };
             AddPrivate(ids);
             return _reserved = new HashSet<string>(ids, StringComparer.OrdinalIgnoreCase);

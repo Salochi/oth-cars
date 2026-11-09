@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>OTH.FourRunner</AssemblyName>
+    <RootNamespace>OverTheHillPlus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OTH.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 4runner4.mesh (body + body_lod1..3, glass, wheel, tyre, collider) and its textures, made by the oth-car-toolkit (profiles/4runner4_prep.py, then convert_materials.py with profiles/4runner4.py). -->
+    <EmbeddedResource Include="Assets\*.mesh;Assets\*.png" Exclude="Assets\card.png" LogicalName="4runner4/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>
