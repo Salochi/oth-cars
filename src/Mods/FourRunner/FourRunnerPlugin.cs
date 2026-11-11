@@ -17,7 +17,7 @@ public class FourRunnerPlugin : BasePlugin
 {
     public const string Guid = "com.nick.oth.4runner4";
     public const string Name = "4Runner (4th gen)";
-    public const string Version = "0.1.0";
+    public const string Version = "0.1.1";
 
     internal const string ModId = FourRunnerDefinition.Id;
     internal static ManualLogSource Logger;
